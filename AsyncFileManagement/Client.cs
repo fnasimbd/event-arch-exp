@@ -1,6 +1,0 @@
-﻿namespace AsyncFileManagement
-{
-    class Client
-    {
-    }
-}
