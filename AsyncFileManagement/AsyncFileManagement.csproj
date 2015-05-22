@@ -34,12 +34,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="GetValue.cs" />
-    <Compile Include="Mediator.cs" />
+    <Compile Include="Clients\Client.cs" />
+    <Compile Include="Handlers\GetValue.cs" />
+    <Compile Include="Mediators\Mediator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SetValue.cs" />
-    <Compile Include="UserRequest.cs" />
+    <Compile Include="Handlers\SetValue.cs" />
+    <Compile Include="Mediators\UserRequest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
